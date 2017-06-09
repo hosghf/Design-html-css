@@ -23,7 +23,6 @@
     display: table;
     clear: both;
 }
-
 #left-container #top-menu div, #left-container  #post-container #sec-menu  div{
     display: inline-block;
     width: 5em;
@@ -38,7 +37,6 @@
     width: 94%;
     height: 7.6em;
     margin: 2em 0;
-    background: gray;
 }
 #left-container #post-container  #post-info div {
     display: inline-block;
@@ -50,7 +48,7 @@
     width: 97%;
     height: 12em;
     margin: 1.8em 0 1.8em 0;
-    background: #9b9b9b;
+
 }
 #left-container #post-container #post-img {
     width: 80%;
@@ -85,10 +83,16 @@
     margin: 1.6em 0 1em 0;
 }
 h1 {
-    font-weight: 600;
+    font-weight: 700;
    /* font-family: "Times New Roman"; */
-    font-family: sans-serif;
+   font-family: 'PT Serif', serif;
     font-size: 2em;
+    line-height: 1.3em;
+    word-spacing: .09em;
 }
-
-
+p {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 1.6em;
+    word-spacing: .18em;
+}
